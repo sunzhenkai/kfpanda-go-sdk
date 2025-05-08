@@ -5,7 +5,7 @@ go 1.20
 require (
 	github.com/natefinch/lumberjack v2.0.0+incompatible
 	github.com/sirupsen/logrus v1.9.3
-	github.com/sunzhenkai/kung-fu-panda-protocols v0.0.3
+	github.com/sunzhenkai/kung-fu-panda-protocols v0.20.2
 	google.golang.org/grpc v1.58.0
 )
 

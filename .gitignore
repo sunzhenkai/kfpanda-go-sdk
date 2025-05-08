@@ -19,3 +19,4 @@ coverage.out
 work.*
 vendor
 cover.cov
+kfpanda-client
