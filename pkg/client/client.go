@@ -26,7 +26,7 @@ func NewKfPandaClient(cfg *ClientConfig) (kfpanda.KfPandaServiceClient, error) {
 	}
 	conn, err := grpc.Dial(cfg.ServerUri, opts...)
 	if err != nil {
-		logging.Logger.Infoln("create ranker grpc client failed.")
+		logging.Logger.Infoln("create kfpanda grpc client failed.")
 		return nil, err
 	}
 	return kfpanda.NewKfPandaServiceClient(conn), nil
