@@ -12,4 +12,4 @@ test:
 	@go test -v ./...
 
 main:
-	@CGO_ENABLED=0 go build -ldflags="-s -w -extldflags=-static" cmd/main/main.go
+	@CGO_ENABLED=0 go build -ldflags="-s -w -extldflags=-static" cmd/main/kfpanda-client.go && ./kfpanda-client
